@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glow With Renatus</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header>
+    <h1>Glow With Renatus</h1>
+    <h5>Natural skincare | Wellness | Glow</h5>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Welcome to the Best Place to Buy Products</h2>
+    <p>High-quality products at unbeatable prices!</p>
+    <button onclick="document.getElementById('products').scrollIntoView({behavior:'smooth'})">Shop Now</button>
+  </section>
+
+  <section id="products">
+    <h2 style="text-align: center;">Our Products</h2>
+    <div class="product-list">
+
+      <div class="product-card">
+        <img src="images/p11.jpg" alt="Product 1" style="cursor:pointer" onclick="showGalleryModal(1)" />
+        <h3>FACEWASH</h3>
+        <p>
+          An Ayurvedic face cleanser enriched with natural herbs like neem, aloe vera, and tea tree oil. This gentle
+          yet powerful formula removes impurities, excess oil, and environmental toxins without stripping away moisture.
+          Suits all skin types.
+        </p>
+        <h4>Key Benefits:-</h4>
+        <ul>
+          <li>🌿 Ayurvedic deep cleansing
+          </li>
+          <li>❌ Prevents acne, soothes irritation
+          </li>
+          <li>⚖ Maintains skin's natural balance
+          </li>
+        </ul>
+        <p class="price">$3.91/ ₹333</p>
+        <button onclick="addToCart(1)">Add to Cart</button>
+        <button onclick="orderNow(1)">Order Now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/p21.jpg" alt="Product 2" style="cursor:pointer" onclick="showGalleryModal(2)" />
+        <h3>FACE SCRUB</h3>
+        <p>
+          A revitalizing Ayurvedic face scrub made with walnut shell powder, sandalwood, and turmeric. It gently
+          exfoliates dead skin cells, unclogs pores, and enhances blood circulation for a natural glow.
+          Suits all skin types.
+        </p>
+        <h4>Key Benefits:-</h4>
+        <ul>
+          <li>⚫ Clears blackheads and brightens complexion
+          </li>
+          <li>🔄 Boosts skin renewal
+          </li>
+          <li>
+            ✨ Natural herbal glow with regular use
+          </li>
+        </ul>
+        <p class="price">$3.91 / ₹333</p>
+        <button onclick="addToCart(2)">Add to Cart</button>
+        <button onclick="orderNow(2)">Order Now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/p31.jpg" alt="Product 3" style="cursor:pointer" onclick="showGalleryModal(3)" />
+        <h3>SUN SCREEN LOTION</h3>
+        <p>An Ayurvedic sunscreen with zinc oxide, aloe vera, and licorice extract that protects against UVA/UVB rays
+          while nourishing the skin. It blends into the skin smoothly without any white cast.
+          Suits all skin types.
+        </p>
+        <h4>Key Benefits:-</h4>
+        <ul>
+          <li>☀ Ayurvedic sun protection
+          </li>
+          <li>💧 Non-sticky and water-resistant
+          </li>
+          <li>❌ Prevents tanning and hyperpigmentation
+          </li>
+        </ul>
+        <p class="price">$3.91 / ₹333</p>
+        <button onclick="addToCart(3)">Add to Cart</button>
+        <button onclick="orderNow(3)">Order Now</button>
+      </div>
+
+      <div class="product-card">
+        <img src="images/p41.jpg" alt="Product 4" style="cursor:pointer" onclick="showGalleryModal(4)" />
+        <h3>BODY MIST</h3>
+        <p>A collection of Ayurvedic body mists with refreshing and soothing scents like Lavender Bliss, Citrus Splash,
+          Rose Garden, Ocean Breeze, and Vanilla Musk. Made with essential oils and herbal hydrosols for a lasting
+          aroma.
+          Suits all skin types.
+        </p>
+        <h4>Key Benefits:-</h4>
+        <ul>
+          <li>🌸 Ayurvedic fragrance therapy
+          </li>
+          <li>
+            ✅ Alcohol-free, gentle on skin
+          </li>
+          <li>
+            ☀ Refreshes and uplifts mood
+          </li>
+        </ul>
+        <p class="price">$5.50 / ₹459</p>
+        <button onclick="addToCart(4)">Add to Cart</button>
+        <button onclick="orderNow(4)">Order Now</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <div>
+      <h3>Renatus Wellness : Your Skin's Natural Friend!
+      </h3>
+      <p>
+        In today's busy life, our skin needs special care more than ever. Rentus Wellness brings you natural and
+        Ayurvedic products made with pure ingredients—no harsh chemicals at all. Whether you're an uncle, aunty, a
+        school kid, or a college student, our products are safe, gentle, and perfect for everyone. They protect your
+        skin, keep it clean, and give you a healthy natural glow.
+      </p>
+      <h3>
+        What is Renatus Wellness?
+      </h3>
+      <p>Renatus Wellness is a skincare brand based on Ayurveda and natural herbs, designed especially for today's
+        polluted and stressful environment. Our sunscreen, face wash, and face scrub are made to keep your skin safe,
+        clean, and refreshed. These products gently care for your skin without causing damage or irritation.
+      </p>
+      <h3>
+        Why is Renatus Wellness the Best Choice?
+      </h3>
+      <ol>
+        <li>Pure Ayurvedic Ingredients: Our products use only natural herbs that nourish your skin the way nature
+          intended.
+        </li>
+        <li> Safe for All Ages: Whether you're young or old, everyone deserves healthy, glowing skin. Our products are
+          gentle and safe for all skin types.
+        </li>
+        <li>Made for Today's Lifestyle: Pollution, dust, and stress harm your skin daily—Rentus Wellness protects and
+          cares for your skin against these challenges.
+        </li>
+      </ol>
+      <h3>Ayurvedic Care That Won't Harm Your Skin
+      </h3>
+      <div>Our products combine ancient Ayurvedic wisdom with modern science to give your skin the best care possible.
+        This means no harmful chemicals, just natural ingredients that keep your skin healthy, fresh, and
+        glowing every day.</div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <!-- Order Contact Info Div -->
+    <div id="order-contact-info">
+      <h3>Contact Us</h3>
+      <button onclick="sendMessageViaWhatsApp()">Contact on WhatsApp</button>
+      <button onclick="sendMessageViaInstagram()">Contact on Instagram</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Glow With Renatus. All rights reserved.</p>
+  </footer>
+
+  <button id="cart-button">Cart (0)</button>
+
+  <!-- Cart Modal -->
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeCartModal()">&times;</span>
+      <h3>Your Cart</h3>
+      <div id="cart-items"></div>
+      <p id="total-price"></p>
+      <p id="discount-info"></p>
+      <button onclick="orderNow(-1)">Order Now</button>
+    </div>
+  </div>
+
+  <!-- Contact Modal -->
+  <div id="contact-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeModal()">&times;</span>
+      <h3>Contact Us to Place Your Order</h3>
+      <button onclick="sendMessageViaWhatsApp()">Contact on WhatsApp</button>
+      <button onclick="sendMessageViaInstagram()">Contact on Instagram</button>
+    </div>
+  </div>
+
+  <!-- Gallery Modal -->
+  <div id="gallery-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="closeGalleryModal()">&times;</span>
+      <div id="gallery-images" style="display:flex; gap: 10px; justify-content: center;">
+        <!-- Images will be inserted here dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
